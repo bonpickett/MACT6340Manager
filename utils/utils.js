@@ -1,6 +1,6 @@
 import fs from "fs-extra";
-import { animStrings } from "./animation-strings.js";
-import { projectInfo } from "../build/1-project-bundle/projectMeta.js";
+//import { animStrings } from "./animation-strings.js";
+//import { projectInfo } from "../build/1-project-bundle/projectMeta.js";
 import nodeHtmlToImage from "node-html-to-image";
 import dotenv from "dotenv";
 dotenv.config();
