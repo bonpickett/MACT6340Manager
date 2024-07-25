@@ -1,39 +1,69 @@
 html {
     box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
+   }
+   *,
+   *:before,
+   *:after {
     box-sizing: inherit;
-  }
-  
-  body {
-    background-color: #285d7c;
-    font-family: "Syne Mono", monospace;
-  }
-  
-  /* div {
-    border: 1px solid red;
-  } */
-  
-  @keyframes fadeInAnimation {
-    /*for div fade-in */
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  #preview-frame {
+   }
+   
+   body {
+    background-color: rgb(38, 66, 51);
+    font-family: "Poppins", sans-serif;
+    color: seashell;
+   }
+   
+   #splash {
+    min-height: 800px;
+    background: url("/images/whitehaze.png");
+    color: rgb(203, 106, 135);
+    font-size: 1em;
+    text-shadow: 3px 3px #333;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+   }
+   
+   .playfair-display-splash {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 10em;
+   }
+   
+   .header {
+    color: darksalmon;
+    font-size: 1em;
+   }
+   
+   .section {
+    min-height: 500px;
+    color: seashell;
+    text-align: left;
+    font-size: 1.5em;
+   }
+   
+   .aboutsection {
+    min-height: 500px;
+    color: seashell;
+    text-align: left;
+   }
+   
+   .padding {
+    min-height: 100px;
+   }
+   
+   .splashpadding {
+    min-height: 300px;
+   }
+   
+   .nav-text {
+    color: seashell;
+   }
+
+   #preview-frame {
     width: 250px;
     height: 250px;
-  }
-  
-  div {
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
+   }
+   
