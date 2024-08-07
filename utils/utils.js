@@ -26,7 +26,7 @@ let projectImageIPFS = "";
 export async function completeBuildAndDeploySequence() {
   let seq1 = [
     buildAnimationFiles,
-    // capturePreviewImages,
+    capturePreviewImages,
     // pinImagesAndAnims,
     // buildFinalMetaAndPinToIPFS,
     // buildProjectMetaAndPinToIPFS,
