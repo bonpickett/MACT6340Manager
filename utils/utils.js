@@ -27,11 +27,11 @@ export async function completeBuildAndDeploySequence() {
   let seq1 = [
     buildAnimationFiles,
     capturePreviewImages,
-    // pinImagesAndAnims,
-    // buildFinalMetaAndPinToIPFS,
-    // buildProjectMetaAndPinToIPFS,
-    // deployContract,
-    // buildScriptsForDatabase,
+    pinImagesAndAnims,
+    buildFinalMetaAndPinToIPFS,
+    buildProjectMetaAndPinToIPFS,
+    deployContract,
+    buildScriptsForDatabase,
     close,
   ];
   for (const fn of seq1) await fn();
