@@ -1,6 +1,6 @@
 export const projectInfo = {
   projectName: "Phi Geometry",
-  artistsPayoutWallet: "0x9fcb72D67A4fE972FBEae178647f61A9EC3fF8f3",
+  artistsPayoutWallet: "0xF8AeE3A502AA434Ed04c363f304Ed843F676d748",
   numberOfEditions: 13,
   releaseDate: "2024-08-01 09:00:00",
   websiteProjectDescription:
@@ -14,7 +14,7 @@ export const projectInfo = {
     "A Phi-based interactive shape rendered with THREEjs.",
   openSeaCollectionImage: "",
   openSeaCollectionSeller_fee_basis_points: 500,
-  openSeaCollectionFee_recipient: "0x9fcb72D67A4fE972FBEae178647f61A9EC3fF8f3",
+  openSeaCollectionFee_recipient: "0xF8AeE3A502AA434Ed04c363f304Ed843F676d748",
   tokenDescriptionText:
     "One of the gorgeous interactive shapes from the 'Phi Geometry' collection.",
 };
