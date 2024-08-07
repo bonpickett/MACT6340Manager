@@ -6,8 +6,8 @@ import dotenv from "dotenv";
 dotenv.config();
 import pinataSDK from "@pinata/sdk";
 const pinata = new pinataSDK(
-  process.env.pinata_api_key,
-  process.env.pinata_secret_api_key
+  process.env.PINATA_API_KEY,
+  process.env.PINATA_SECRET_API_KEY
 );
 import pkg from "hardhat";
 const { ethers, run, network } = pkg;
