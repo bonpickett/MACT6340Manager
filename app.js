@@ -1,6 +1,6 @@
 import express from "express";
 import * as utils from "./utils/utils.js";
-//import { projectInfo } from "./build/1-project-bundle/projectMeta.js";
+import { projectInfo } from "./build/1-project-bundle/projectMeta.js";
 
 const app = express();
 const port = 8080;
